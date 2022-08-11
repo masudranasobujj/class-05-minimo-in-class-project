@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: calc(100% - 200px);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/********** header section **********/
+header{
+    padding: 20px 0;
+}
+header .container{}
+header .container .logo{
+    flex: 0 0 auto;
+    width: 15%;
+}
+header .container nav{
+    flex: 0 0 auto;
+    width: 85%;
+}
+header .container nav ul{
+    justify-content: flex-end;
+}
+header .container nav ul li{}
+header .container nav ul li a{
+    color: #00000096;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 30px;
+    display: block;
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+}
+header .container nav ul li a:hover{
+    background: #1a1a1a;
+    color: #fff;
+
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+/*****header section*****/
+
+
+/********** banner section **********/
+
+
+.banner-section{}
+.banner-section .container{}
+.banner-section .container img{
+    width: 100%;
+}
+
+
+/********** banner section **********/
+
+/********** blog section start ***********/
+
+.blog-section{}
+.blog-section .container{}
+.blog-section .container .col-1-1{
+    padding: 100px;
+    flex: 0 0 auto;
+    width: 100%;
+}
+.blog-section .container .col-1-1 article{}
+.blog-section .container .col-1-1 article span{
+    font-size: 20px;
+    color: #00000096;
+    text-transform: uppercase;
+}
+.blog-section .container .col-1-1 article h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: #000000;
+    padding: 20px 0px;
+}
+.blog-section .container .col-1-1 article p{
+    font-size: 18px;
+    color: #000;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.blog-section .container .col-1-1 article a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #00000096;
+    padding: 20px 0px;
+    display: block;
+}
+
+.blog-section .container .col-2-1{
+    padding: 50px;
+    padding-top: 0px;
+}
+.blog-section .container .pad-left{
+
+padding-left: 100px;
+}
+.blog-section .container .pad-right{
+
+padding-right: 100px;
+}
+.blog-section .container .col-2-1 article{}
+.blog-section .container .col-2-1 article img{
+    width: 100%;
+}
+.blog-section .container .col-2-1 article span{
+    display: block;
+    font-size: 20px;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #858585;
+}
+.blog-section .container .col-2-1 article h1{
+    font-size: 25px;
+    color: #858585;
+    font-weight: 600;
+}
+.blog-section .container .col-2-1 article p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #858585;
+    padding: 15px 0px;
+}
+.container .col-2-1{
+    flex: 0 0 auto;
+    width: 50%;
+}
+/********** blog section end ***********/
+
+
+/********** footer **********/
+
+footer{
+    background: #F0F0F0;
+}
+footer .container{
+    padding: 30px 100px;
+}
+footer .container .col-2-1{}
+footer .container .col-2-1 .menu{}
+footer .container .col-2-1 .menu ul{}
+footer .container .col-2-1 .menu ul li{}
+footer .container .col-2-1 .menu ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 20px;
+    color: black;
+    transition-duration: 0.3s;
+}
+footer .container .col-2-1 .menu ul li a:hover{
+    color: #00000082;
+}
+footer .container .col-2-1 .social-link{}
+footer .container .col-2-1 .social-link ul{
+    justify-content: flex-end;
+}
+footer .container .col-2-1 .social-link ul li{}
+footer .container .col-2-1 .social-link ul li span{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 20px;
+    color: black;
+}
+footer .container .col-2-1 .social-link ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 20px;
+    color: black;
+}
+footer .container .col-2-1 .social-link ul li:last-child a{
+	padding-right: 0px;
+}
+footer .container .col-2-1 .social-link ul li a:hover{
+    color: #00000082;
+}
+
+/********** footer **********/
