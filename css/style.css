@@ -40,11 +40,15 @@ header .container nav ul li a{
     font-size: 20px;
     font-weight: 500;
     padding: 15px 30px;
-    display: block;
+    display: inline-block;
     text-transform: uppercase;
     transition-duration: 0.3s;
 }
 header .container nav ul li a:hover{
+    background: #1a1a1a;
+    color: #fff;
+}
+header .container nav ul li:nth-child(4) a{
     background: #1a1a1a;
     color: #fff;
 
@@ -159,18 +163,17 @@ footer .container{
     padding: 30px 100px;
 }
 footer .container .col-2-1{}
-footer .container .col-2-1 .menu{}
-footer .container .col-2-1 .menu ul{}
-footer .container .col-2-1 .menu ul li{}
-footer .container .col-2-1 .menu ul li a{
+footer .container .col-2-1 ul {}
+footer .container .col-2-1 ul li{}
+footer .container .col-2-1 ul li a{
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
-    padding: 20px;
+    padding-right: 20px;
     color: black;
     transition-duration: 0.3s;
 }
-footer .container .col-2-1 .menu ul li a:hover{
+footer .container .col-2-1 ul .footer-menu li a:hover{
     color: #00000082;
 }
 footer .container .col-2-1 .social-link{}
